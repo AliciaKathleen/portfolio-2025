@@ -333,6 +333,7 @@ span {
 .services {
     min-height: auto;
     padding-bottom: 10rem;
+    margin-top: -5rem;
 }
 
 .services h2 {
@@ -377,6 +378,60 @@ span {
 .services-box:hover h3 {
     color: var(--main-color);
 }
+
+.skills-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.resume-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.resume-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+    width: 15rem;
+    text-align: center;
+}
+
+.resume-item i {
+    font-size: 10rem;
+    color: var(--white-color);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.resume-item span {
+    font-size: 14px;
+    color: var(--white-color);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.resume-item:hover {
+    transform: scale(1.2);
+}
+
+.resume-item:hover i {
+    color: var(--main-color);
+}
+
+.resume-item:hover span {
+    opacity: 1;
+    transform: translateY(0);
+    color: var(--white-color); 
+}
+
 
 .services-box p {
     font-size: 1.6rem;
