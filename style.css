@@ -439,7 +439,6 @@ span {
     color: var(--white-color); 
 }
 
-
 .services-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
@@ -447,6 +446,7 @@ span {
 
 .portfolio {
     min-height: auto;
+    margin-top: -60rem;
     padding-bottom: 10rem;
 }
 
