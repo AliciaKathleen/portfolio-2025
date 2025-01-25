@@ -379,9 +379,17 @@ span {
     color: var(--main-color);
 }
 
+.skills {
+    margin-top: -16rem;
+}
+
 .skills-container {
     text-align: center;
     margin-top: 20px;
+}
+
+.skills-container p{
+    font-size: 1.6rem;
 }
 
 .resume-items {
@@ -397,21 +405,20 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 50px;
     cursor: pointer;
     transition: transform 0.3s ease, color 0.3s ease;
-    width: 15rem;
+    width: 80px;
     text-align: center;
 }
 
 .resume-item i {
-    font-size: 10rem;
+    font-size: 100px;
     color: var(--white-color);
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .resume-item span {
-    font-size: 14px;
+    font-size: 20px;
     color: var(--white-color);
     opacity: 0;
     transform: translateY(10px);
