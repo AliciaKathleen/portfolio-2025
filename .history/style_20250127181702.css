@@ -495,17 +495,6 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.contact-me i {
-    font-size: 4rem;
-}
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;

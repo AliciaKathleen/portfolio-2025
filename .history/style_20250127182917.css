@@ -503,8 +503,10 @@ span {
 }
 
 .contact-me i {
+    align-items: center;
     font-size: 4rem;
 }
+
 
 .contact {
     min-height: auto;

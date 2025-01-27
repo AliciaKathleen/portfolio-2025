@@ -64,6 +64,10 @@ body {
     margin-right: auto;
 }
 
+.logo span{
+    color: #1E1E1E;
+}
+
 .navbar a {
     position: relative;
     font-size: 2rem;
@@ -495,37 +499,13 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.contact-me i {
-    font-size: 4rem;
-}
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
 }
 
-.contact h1 {
-    font-size: 2.5rem;
-    margin-bottom: .1rem;
-}
-
 .contact h2 {
     margin-bottom: 3rem;
-}
-
-.contact h3{
-    font-size: 2.3rem;
-}
-
-.contact p{
-    font-size: 2rem;
 }
 
 .contact form {

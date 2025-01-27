@@ -495,17 +495,6 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.contact-me i {
-    font-size: 4rem;
-}
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
@@ -513,19 +502,11 @@ span {
 
 .contact h1 {
     font-size: 2.5rem;
-    margin-bottom: .1rem;
+    margin-bottom: 50px;
 }
 
 .contact h2 {
     margin-bottom: 3rem;
-}
-
-.contact h3{
-    font-size: 2.3rem;
-}
-
-.contact p{
-    font-size: 2rem;
 }
 
 .contact form {

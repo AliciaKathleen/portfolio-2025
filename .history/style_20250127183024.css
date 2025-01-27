@@ -496,6 +496,7 @@ span {
 }
 
 .contact-me {
+    flex-direction: column;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -505,6 +506,7 @@ span {
 .contact-me i {
     font-size: 4rem;
 }
+
 
 .contact {
     min-height: auto;

@@ -496,15 +496,19 @@ span {
 }
 
 .contact-me {
-    justify-content: center;
     display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
+    flex-direction: column; /* Coloca o ícone e o texto um abaixo do outro */
+    align-items: center; /* Centraliza o ícone e o texto horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    text-align: justify; /* Justifica o texto */
+    margin-bottom: 10px; /* Espaço entre os itens */
 }
 
 .contact-me i {
-    font-size: 4rem;
+    font-size: 24px; /* Tamanho do ícone */
+    margin-bottom: 10px; /* Espaço entre o ícone e o texto */
 }
+
 
 .contact {
     min-height: auto;

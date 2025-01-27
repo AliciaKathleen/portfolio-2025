@@ -58,7 +58,7 @@ body {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--main-color);
     font-weight: 600;
     margin-right: auto;
@@ -335,11 +335,6 @@ span {
     color: var(--main-color);
 }
 
-.services-box p {
-    font-size: 1.7rem;
-    margin: 1rem 0 3rem;
-}
-
 .services-box h3 {
     font-size: 2.5rem;
     transition: .5s ease;
@@ -350,7 +345,7 @@ span {
 }
 
 .skills {
-    margin-top: -9rem;
+    margin-top: -16rem;
 }
 
 .skills-container {
@@ -382,10 +377,9 @@ span {
 }
 
 .resume-item i {
-    margin-top: 15px;
     font-size: 100px;
     color: var(--main-color);
-    transition: transform 0.1s ease, color 0.1s ease;
+    transition: transform 0.1s ease, color 0.3s ease;
 }
 
 .resume-item span {
@@ -393,7 +387,7 @@ span {
     color: var(--main-color);
     opacity: 0;
     transform: translateY(10px);
-    transition: opacity 0.1s ease, transform 0.1s ease;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .resume-item:hover {
@@ -401,13 +395,18 @@ span {
 }
 
 .resume-item:hover i {
-    color: #1d384e;
+    color: var(--main-color);
 }
 
 .resume-item:hover span {
     opacity: 1;
     transform: translateY(0);
-    color: #1d384e; 
+    color: var(--white-color); 
+}
+
+.services-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
 }
 
 .portfolio {
@@ -416,13 +415,8 @@ span {
     padding-bottom: 10rem;
 }
 
-.portfolio h1{
-    font-size: 4rem;
-}
-
 .portfolio h2 {
     margin-bottom: 4rem;
-    font-size: 5rem
 }
 
 .portfolio .portfolio-container {
@@ -495,37 +489,13 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.contact-me i {
-    font-size: 4rem;
-}
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
 }
 
-.contact h1 {
-    font-size: 2.5rem;
-    margin-bottom: .1rem;
-}
-
 .contact h2 {
     margin-bottom: 3rem;
-}
-
-.contact h3{
-    font-size: 2.3rem;
-}
-
-.contact p{
-    font-size: 2rem;
 }
 
 .contact form {

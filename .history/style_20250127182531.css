@@ -496,15 +496,15 @@ span {
 }
 
 .contact-me {
-    justify-content: center;
     display: flex;
     align-items: center;
-    margin-bottom: 10px; 
+    margin-bottom: 10px; /* Apenas para espaçar os itens, se necessário */
 }
 
 .contact-me i {
-    font-size: 4rem;
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
 }
+
 
 .contact {
     min-height: auto;

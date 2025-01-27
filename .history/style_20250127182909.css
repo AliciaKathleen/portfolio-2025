@@ -496,15 +496,17 @@ span {
 }
 
 .contact-me {
-    justify-content: center;
+    align-items: center;
     display: flex;
     align-items: center;
     margin-bottom: 10px; 
 }
 
 .contact-me i {
+    align-items: center;
     font-size: 4rem;
 }
+
 
 .contact {
     min-height: auto;

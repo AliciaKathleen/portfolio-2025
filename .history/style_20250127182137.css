@@ -495,16 +495,15 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
+.heading {
     display: flex;
     align-items: center;
-    margin-bottom: 10px; 
 }
 
-.contact-me i {
-    font-size: 4rem;
+.heading i {
+    margin-right: 10px; /* Espaço entre o ícone e o texto */
 }
+
 
 .contact {
     min-height: auto;

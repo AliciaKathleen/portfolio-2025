@@ -58,7 +58,7 @@ body {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--main-color);
     font-weight: 600;
     margin-right: auto;
@@ -350,7 +350,7 @@ span {
 }
 
 .skills {
-    margin-top: -9rem;
+    margin-top: -10rem;
 }
 
 .skills-container {
@@ -382,7 +382,6 @@ span {
 }
 
 .resume-item i {
-    margin-top: 15px;
     font-size: 100px;
     color: var(--main-color);
     transition: transform 0.1s ease, color 0.1s ease;
@@ -416,13 +415,8 @@ span {
     padding-bottom: 10rem;
 }
 
-.portfolio h1{
-    font-size: 4rem;
-}
-
 .portfolio h2 {
     margin-bottom: 4rem;
-    font-size: 5rem
 }
 
 .portfolio .portfolio-container {
@@ -495,37 +489,13 @@ span {
     color: #333;
 }
 
-.contact-me {
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px; 
-}
-
-.contact-me i {
-    font-size: 4rem;
-}
-
 .contact {
     min-height: auto;
     padding-bottom: 7rem;
 }
 
-.contact h1 {
-    font-size: 2.5rem;
-    margin-bottom: .1rem;
-}
-
 .contact h2 {
     margin-bottom: 3rem;
-}
-
-.contact h3{
-    font-size: 2.3rem;
-}
-
-.contact p{
-    font-size: 2rem;
 }
 
 .contact form {
