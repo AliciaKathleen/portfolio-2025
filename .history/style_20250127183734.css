@@ -23,9 +23,9 @@
 }
 
 .dark-mode {
-    --bg-color: #2c3e50;
+    --bg-color: #1E1E1E;
     --text-color: #F5F5F5;
-    --main-color: #2471a3;
+    --main-color: #1E3A8A;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
@@ -496,7 +496,8 @@ span {
 }
 
 .contact-me {
-    margin-left: 10rem;
+    text-align: justify;
+    justify-content: center;
     display: flex;
     align-items: center;
     margin-bottom: 10px; 
@@ -570,7 +571,6 @@ span {
 .footer {
     display: flex;
     justify-content: space-between;
-    text-align: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 7%;
@@ -580,10 +580,6 @@ span {
 .footer-text p {
     font-size: 1.6rem;
     color: var(--white-color);
-}
-
-.footer-text .development span{
-    color: var(--bg-color);
 }
 
 .footer-iconTop a {

@@ -23,9 +23,9 @@
 }
 
 .dark-mode {
-    --bg-color: #2c3e50;
+    --bg-color: #0c1317;
     --text-color: #F5F5F5;
-    --main-color: #2471a3;
+    --main-color: #1E3A8A;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
