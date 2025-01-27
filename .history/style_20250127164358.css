@@ -10,10 +10,10 @@
 }
 
 :root {
-    --bg-color: #F5F5F5;
-    --text-color: #333333;
-    --main-color: #4682B4;
-    --white-color: #F5F5F5;
+    --bg-color: #2B2D42;
+    --text-color: #fdfdfd;
+    --main-color: #6959CD;
+    --white-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .2);
 }
 
@@ -23,9 +23,8 @@
 }
 
 .dark-mode {
-    --bg-color: #1E1E1E;
-    --text-color: #F5F5F5;
-    --main-color: #1E3A8A;
+    --bg-color: #0b061f;
+    --text-color: #fdfdfd;
     --shadow-color: rgba(0, 0, 0, .7);
 }
 
@@ -140,7 +139,7 @@ section {
 }
 
 .home-content p {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 .home-content .social-media a {
@@ -207,6 +206,33 @@ section {
     animation: professionRotate 13s ease-out infinite;
 }
 
+@keyframes professionRotate {
+
+    0%,
+    20% {
+        transform: rotate(0deg);
+    }
+
+    25%,
+    45% {
+        transform: rotate(-90deg);
+    }
+
+    50%,
+    70% {
+        transform: rotate(-180deg);
+    }
+
+    75%,
+    95% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
 .home .profession-box .profession {
     position: absolute;
     left: 0;
@@ -216,7 +242,7 @@ section {
     color: var(--main-color);
     transform: rotate(calc(360deg / 4 * var(--i)));
     transform-origin: 384px;
-    background:var(--bg-color) ;
+    background: white ;
     padding: 13px 0;
 }
 
@@ -227,6 +253,16 @@ section {
 .home .profession-box .profession:nth-child(2),
 .home .profession-box .profession:nth-child(4) {
     padding-bottom: 20px;
+}
+
+.home .profession i {
+    font-size: 3.8rem;
+}
+
+.home .profession h3 {
+    font-size: 3.2rem;
+    line-height: 1;
+    font-weight: 600;
 }
 
 .home .profession-box .circle {
@@ -282,22 +318,22 @@ span {
 .about-content h2 {
     margin-top: 1rem;
     text-align: left;
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 .about-content h3 {
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 .about-content p {
-    font-size: 2.1rem;
+    font-size: 1.6rem;
     margin: 2rem 0 3rem;
 }
 
 .services {
     min-height: auto;
-    padding-bottom: 15rem;
-    margin-top: -10rem;
+    padding-bottom: 10rem;
+    margin-top: -5rem;
 }
 
 .services h2 {

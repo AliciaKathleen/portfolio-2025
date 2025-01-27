@@ -290,14 +290,14 @@ span {
 }
 
 .about-content p {
-    font-size: 2.1rem;
+    font-size: 2rem;
     margin: 2rem 0 3rem;
 }
 
 .services {
     min-height: auto;
-    padding-bottom: 15rem;
-    margin-top: -10rem;
+    padding-bottom: 10rem;
+    margin-top: -5rem;
 }
 
 .services h2 {
